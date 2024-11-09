@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ItemSelectViewController" customModule="Shoppinglist" customModuleProvider="target">
+            <connections>
+                <outlet property="captionedPic1" destination="iQV-BF-gYc" id="w6t-fs-oF4"/>
+                <outlet property="captionedPic10" destination="iRa-ad-X6Y" id="7vb-B5-mAK"/>
+                <outlet property="captionedPic2" destination="AQF-0R-Hwf" id="52u-VK-ekS"/>
+                <outlet property="captionedPic3" destination="nyX-8T-Ya5" id="rkh-LU-jSr"/>
+                <outlet property="captionedPic4" destination="Ell-E2-jQp" id="2TZ-SM-emJ"/>
+                <outlet property="captionedPic5" destination="xsl-cZ-fgM" id="9JQ-RR-RcT"/>
+                <outlet property="captionedPic6" destination="t62-Xb-qTV" id="vyi-hI-y0T"/>
+                <outlet property="captionedPic7" destination="zfG-QI-EpS" id="Ekg-9W-ONd"/>
+                <outlet property="captionedPic8" destination="QXy-89-tcv" id="HhR-8Z-a9L"/>
+                <outlet property="captionedPic9" destination="s0W-eK-TAK" id="cEW-6O-NA8"/>
+                <outlet property="view" destination="gE5-jG-2N3" id="ULz-1W-ot9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gE5-jG-2N3">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="sDc-w9-VZM">
+                    <rect key="frame" x="0.0" y="59" width="393" height="700.33333333333337"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escoge tus productos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOy-W0-UTK">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQV-BF-gYc" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="64" width="393" height="61.666666666666657"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQF-0R-Hwf" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="127.66666666666666" width="393" height="62"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nyX-8T-Ya5" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="191.66666666666666" width="393" height="61.666666666666657"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ell-E2-jQp" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="255.33333333333331" width="393" height="62"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsl-cZ-fgM" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="319.33333333333331" width="393" height="61.666666666666686"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t62-Xb-qTV" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="383" width="393" height="62"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfG-QI-EpS" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="447" width="393" height="61.666666666666686"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXy-89-tcv" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="510.66666666666663" width="393" height="62"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0W-eK-TAK" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="574.66666666666663" width="393" height="61.666666666666629"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRa-ad-X6Y" customClass="CaptionedPic" customModule="Shoppinglist" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="638.33333333333337" width="393" height="62"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUg-PL-Aph">
+                    <rect key="frame" x="114.66666666666667" y="767.33333333333337" width="163.66666666666663" height="34.333333333333371"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="OEg-nq-C0J"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Let’s Go Shopping">
+                        <backgroundConfiguration key="background">
+                            <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        </backgroundConfiguration>
+                        <color key="baseForegroundColor" systemColor="labelColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="finishSelection:" destination="-1" eventType="touchUpInside" id="1LW-xo-bfW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="h81-nt-ugW"/>
+            <color key="backgroundColor" systemColor="systemGray4Color"/>
+            <constraints>
+                <constraint firstItem="AUg-PL-Aph" firstAttribute="centerX" secondItem="gE5-jG-2N3" secondAttribute="centerX" id="0I1-zc-wQo"/>
+                <constraint firstItem="sDc-w9-VZM" firstAttribute="leading" secondItem="h81-nt-ugW" secondAttribute="leading" id="B3A-iz-jcZ"/>
+                <constraint firstItem="AUg-PL-Aph" firstAttribute="top" secondItem="sDc-w9-VZM" secondAttribute="bottom" constant="8" id="DyW-Zj-1vD"/>
+                <constraint firstItem="sDc-w9-VZM" firstAttribute="top" secondItem="h81-nt-ugW" secondAttribute="top" id="dsg-iu-nas"/>
+                <constraint firstItem="sDc-w9-VZM" firstAttribute="height" secondItem="gE5-jG-2N3" secondAttribute="height" multiplier="0.821987" id="jeO-hM-Nj5"/>
+                <constraint firstItem="h81-nt-ugW" firstAttribute="trailing" secondItem="sDc-w9-VZM" secondAttribute="trailing" id="zuT-Nl-Ola"/>
+            </constraints>
+            <point key="canvasLocation" x="-398" y="-20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
